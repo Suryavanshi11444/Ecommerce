@@ -42,7 +42,7 @@ const ProductSection = () => {
   }, [search, filters]);
 
   return (
-    <div className="px-14"> {/* Changed to px-10 for wider horizontal padding */}
+    <div id="product" className="px-14"> {/* Changed to px-10 for wider horizontal padding */}
       <div className="flex">
         <aside className="w-1/4 p-4 border-r border-gray-200 bg-white">
           <SearchBar onSearch={setSearch} />

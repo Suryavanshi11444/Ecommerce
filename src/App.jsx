@@ -12,9 +12,13 @@ function App() {
   return (
     <div>
       <Navbar />
+      <section id='home'>
       <HeroSection />
+      </section>
       <Features />
+      <section id='product'>
       <ProductSection />
+      </section>
       {/* Add the ContactForm component here */}
       <section id="contact">
       <ContactForm />
