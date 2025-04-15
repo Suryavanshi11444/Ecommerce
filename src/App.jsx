@@ -1,9 +1,14 @@
 import React from 'react'
 import './index.css'
+import ProductSection from './components/ProductSection'
 
 function App() {
   return (
-    <div>App</div>
+    <>
+    
+    <ProductSection/>
+    </>
+    
   )
 }
 
