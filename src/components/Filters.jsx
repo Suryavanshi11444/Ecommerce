@@ -4,7 +4,7 @@ const Filters = ({ filters, onFilterChange }) => {
   const [showFilters, setShowFilters] = useState(true);
 
   return (
-    <div className="w-full lg:w-1/4">
+    <div className="w-full lg:w-1/2">
       {/* Toggle Button */}
       <div className="mb-4">
         <button
