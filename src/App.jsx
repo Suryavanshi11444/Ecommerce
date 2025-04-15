@@ -1,15 +1,10 @@
 import React from 'react'
 import './index.css'
-import ProductSection from './components/ProductSection'
 
 function App() {
   return (
-    <>
-    
-    <ProductSection/>
-    </>
-    
+    <div>App</div>
   )
 }
 
-export default App
+export default App;
